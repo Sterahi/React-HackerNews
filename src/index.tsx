@@ -7,7 +7,7 @@ import App from './Components/App/App';
 import * as serviceWorker from './serviceWorker';
 
 const client = new ApolloClient({
-  uri: "http://safe-escarpment-21928.herokuapp.com/graphql",
+  uri: "https://safe-escarpment-21928.herokuapp.com/graphql",
   cache: new InMemoryCache()
 })
 
